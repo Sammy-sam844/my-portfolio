@@ -1,0 +1,37 @@
+h1{
+   text-align:center;
+   background-color:#0074D9;
+   font-family:algerian;
+   color:purple; } body {
+     background-color: #001f3f;
+      color: #ffffff;
+  } .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: yellowgreen;
+     color: #fff;
+     padding: 1rem; }
+  .navbar .logo {
+     font-size: 1.5rem; }
+  .navbar ul {
+     list-style: none;
+     display: flex; }
+  .navbar ul li a {
+     color: #fff;
+     text-decoration: none;
+     padding: 0.75rem;
+     margin: 0 0.25rem; }
+  .navbar ul li a:hover {
+     background-color: #555; } #aboutme{
+   text-align:center;
+   } #Experience{
+   text-align:center; } #Projects{
+   text-align:center; } #social-icons {
+   display: flex; }
+  #social-icons img {
+   width: 30px; /* Adjust icon size */
+   height: 30px; /* Adjust icon size */
+   margin-right: 10px; /* Adjust spacing between icons */
+   cursor: pointer; /* Show pointer cursor on hover */ } 
+.navbar a.active,.navbar a:hover {   background: linear-gradient(45deg, #f06,#3cf);   -webkit-text-fill-color: transparent;   -webkit-background-clip: text; }
